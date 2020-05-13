@@ -1,0 +1,60 @@
+{   
+    "options":[
+        {
+            "action": "fit",
+            "size": "100x100",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-fit"
+        },
+        {
+            "action": "fill",
+            "size": "200x200",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-fill"
+        },
+        {
+            "action": "center",
+            "size": "300x300",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-center"
+        },
+        {
+            "action": "width",
+            "size": "100",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-width"
+        },
+        {
+            "action": "height",
+            "size": "150",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-height"
+        },
+        {
+            "action": "stretch",
+            "size": "120x120",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-stretch"
+        },
+        {
+            "action": "thumb",
+            "size": "50x50",
+            "format": "png",
+            "mime": "image/png",
+            "prefix": "resized-image-thumb"
+        }
+    ],
+    "params":{
+        "custom": "These params are going to be sent to response channel, you can put anything here.",
+        "other": "You can use this part as informational data area."
+    },
+    "response_channel":"image_resized",
+    "key":"image.jpg",
+    "bucket_name":"your-bucket-name"
+}
